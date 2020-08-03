@@ -1,0 +1,11 @@
+.page-loader-wrapper {
+  .rs-loader-lg .rs-loader-spin::before,
+  .rs-loader-lg .rs-loader-spin::after,
+  .rs-loader-lg .rs-loader-spin {
+    width: 84px;
+    height: 84px;
+  }
+  .rs-loader-lg .rs-loader-content {
+    font-size: 24px;
+  }
+}

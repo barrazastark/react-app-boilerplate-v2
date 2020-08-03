@@ -1,0 +1,50 @@
+@import "./reset.scss";
+@import "./variables.scss";
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: black;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.rs-form:not(.rs-form-inline) .rs-form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+a,
+a:hover {
+  font-size: 12px;
+  color: $green;
+}
+
+.rs-form-control-wrapper .rs-error-message-wrapper {
+  position: static;
+  .rs-error-message {
+    position: static;
+    padding: 0;
+    border: none;
+    background: transparent;
+    border-radius: 0;
+    margin-top: 5px;
+    .rs-error-message-arrow {
+      display: none;
+    }
+    .rs-error-message-inner {
+      font-size: 14px;
+    }
+  }
+}
+
+input.rs-input {
+  border: 1px solid #aaa;
+  color: black;
+  &:focus,
+  &:hover {
+    border-color: $green;
+  }
+}

@@ -1,0 +1,28 @@
+@import "styles";
+
+.login-page-wrapper {
+  &__google_separator {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    padding: 0 80px;
+
+    &::after,
+    &::before {
+      content: "";
+      width: 45%;
+      height: 2px;
+      opacity: 0.3;
+      background-color: $green;
+      position: absolute;
+      top: 5px;
+    }
+    &::after {
+      left: 0;
+    }
+    &::before {
+      right: 0;
+    }
+  }
+}
